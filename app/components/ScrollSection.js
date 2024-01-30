@@ -22,7 +22,7 @@ function ScrollSection() {
         translateX: 0,
       },
       {
-        translateX: "-300vw",
+        translateX: "-400vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
@@ -32,7 +32,7 @@ function ScrollSection() {
           scrub: 0.6,
           pin: true,
           snap: {
-            snapTo: 1 / 3, // Adjust this value as needed
+            snapTo: 1 / 4, // Adjust this value as needed
           },
         },
       }
@@ -56,6 +56,9 @@ function ScrollSection() {
           </div>
           <div className="scroll-section">
             <Project2 />
+          </div>
+          <div className="scroll-section">
+            <Project3 />
           </div>
           <div className="scroll-section">
             <Project3 />

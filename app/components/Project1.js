@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import "../globals.css";
 
@@ -20,7 +21,6 @@ const Project1 = () => {
           stratagies such as Routing and Remote.it. Using Open ETH ports the
           traffic would be directed to the box through routing of Remote.it once
           the webpage was accessed.
-          <div></div>
           <a
             href="http://webmoti.org/"
             target="_blank"

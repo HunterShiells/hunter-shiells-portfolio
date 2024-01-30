@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 
 const Project2 = () => {
@@ -22,7 +23,6 @@ const Project2 = () => {
           Spotify's Developer API and harnessing the power of Unihiker's Python
           library, I've created a seamless user experience, making managing
           music playback a breeze.
-          <div></div>
           <a
             href="https://github.com/HunterShiells/Unihiker-Spotify-Controls"
             target="_blank"

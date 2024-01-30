@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 
 const Project3 = () => {
@@ -22,7 +23,6 @@ const Project3 = () => {
           effortlessly add items to their cart, proceed to checkout, and
           simultaneously update a hosted database in real-time. This holistic
           approach ensures both user satisfaction and operational efficiency.
-          <div></div>
           <a
             href="https://github.com/HunterShiells/Shop-Front-Web-App"
             target="_blank"
