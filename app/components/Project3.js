@@ -5,8 +5,8 @@ const Project3 = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       {/* Text on the left */}
-      <div className="w-1/3 text-white p-8 ">
-        <h1 className="text-4xl font-bold mb-4 text-center">
+      <div className="w-1/3 text-white p-8 text-center">
+        <h1 className="text-4xl font-bold mb-4 text-center text-blue-500">
           Shop-Front-Web-App
         </h1>
         <p className="text-lg text-center">
@@ -23,7 +23,8 @@ const Project3 = () => {
           effortlessly add items to their cart, proceed to checkout, and
           simultaneously update a hosted database in real-time. This holistic
           approach ensures both user satisfaction and operational efficiency.
-          <a
+        </p>
+        <a
             href="https://github.com/HunterShiells/Shop-Front-Web-App"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,12 +32,11 @@ const Project3 = () => {
           >
             View Github
           </a>
-        </p>
       </div>
 
       <div className="w-1/2">
         <img
-          src="https://imgur.com/umvPYvO.png"
+          src="https://imgur.com/898Z4Ue.png"
           alt="WebMoti Box"
           className="w-3/4 h-auto object-cover rounded-lg border border-gray-500"
         />

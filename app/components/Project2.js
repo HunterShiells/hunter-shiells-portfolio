@@ -11,8 +11,8 @@ const Project2 = () => {
           className="w-3/4 h-auto object-cover rounded-lg border border-gray-500"
         />
       </div>
-      <div className="w-1/3 text-white  ">
-        <h1 className="text-4xl font-bold mb-4 text-center">
+      <div className="w-1/3 text-white text-center">
+        <h1 className="text-4xl font-bold mb-4 text-center text-blue-500">
           UniHiker-Spotify-Controls
         </h1>
         <p className="text-lg text-center">
@@ -23,7 +23,8 @@ const Project2 = () => {
           Spotify's Developer API and harnessing the power of Unihiker's Python
           library, I've created a seamless user experience, making managing
           music playback a breeze.
-          <a
+        </p>
+        <a
             href="https://github.com/HunterShiells/Unihiker-Spotify-Controls"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +32,6 @@ const Project2 = () => {
           >
             View Github
           </a>
-        </p>
       </div>
     </div>
   );

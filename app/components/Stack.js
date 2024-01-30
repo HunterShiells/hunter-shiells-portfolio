@@ -4,7 +4,7 @@ import "../globals.css";
 const Stack = () => {
   return (
     <div className="stack-container">
-      <h1 className="stack-heading">Languages Spoken</h1>
+      <h1 className="stack-heading font-bold">Languages Spoken</h1>
 
       <div className="ferris-wheel">
         <div className="stack-item bubble-box">

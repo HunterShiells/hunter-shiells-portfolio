@@ -5,8 +5,8 @@ import "../globals.css";
 const Project1 = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="w-1/3 text-white p-8 ">
-        <h1 className="text-4xl font-bold mb-4 text-center">WebMoti</h1>
+      <div className="w-1/3 text-white p-8 text-center">
+        <h1 className="text-4xl font-bold mb-4 text-center text-blue-500">WebMoti</h1>
         <p className="text-lg text-center">
           An in class assistant for neurodivergent students learning from hybrid
           setting. Allowing the student to raise a servo controlled hand, ask
@@ -21,7 +21,8 @@ const Project1 = () => {
           stratagies such as Routing and Remote.it. Using Open ETH ports the
           traffic would be directed to the box through routing of Remote.it once
           the webpage was accessed.
-          <a
+        </p>
+        <a
             href="http://webmoti.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,7 +30,6 @@ const Project1 = () => {
           >
             View Online
           </a>
-        </p>
       </div>
 
       <div className="w-1/2">
