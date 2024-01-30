@@ -1,9 +1,40 @@
-import React from 'react'
+import React from "react";
 
 const Project2 = () => {
   return (
-    <div>Project2</div>
-  )
-}
+    <div className="flex justify-center items-center h-screen">
+      <div className="w-1/2">
+        <img
+          src="https://imgur.com/8rPHZjY.png"
+          alt="WebMoti Box"
+          className="w-3/4 h-auto object-cover rounded-lg border border-gray-500"
+        />
+      </div>
+      <div className="w-1/3 text-white  ">
+        <h1 className="text-4xl font-bold mb-4 text-center">
+          UniHiker-Spotify-Controls
+        </h1>
+        <p className="text-lg text-center">
+          I crafted an advanced Spotify control system in Python, weaving
+          together an array of libraries and imports. The heart of the project
+          is a Unihiker ESP32 touchscreen device, delivering an intuitive
+          interface for effortless Spotify playback control. By tapping into
+          Spotify's Developer API and harnessing the power of Unihiker's Python
+          library, I've created a seamless user experience, making managing
+          music playback a breeze.
+          <div></div>
+          <a
+            href="https://github.com/HunterShiells/Unihiker-Spotify-Controls"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg mt-4 hover:bg-blue-600"
+          >
+            View Github
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+};
 
-export default Project2
+export default Project2;
