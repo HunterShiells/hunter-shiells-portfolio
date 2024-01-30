@@ -7,6 +7,7 @@ import AboutMe from "./AboutMe";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
+import Stack from "./Stack";
 
 
 function ScrollSection() {
@@ -61,7 +62,7 @@ function ScrollSection() {
             <Project3 />
           </div>
           <div className="scroll-section">
-            <Project3 />
+            <Stack />
           </div>
         </div>
       </div>
