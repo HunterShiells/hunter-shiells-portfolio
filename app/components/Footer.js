@@ -2,7 +2,6 @@
 // Import useState and useRef from React
 import React, { useState, useRef } from "react";
 import "../globals.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Footer() {
   // State variables for form fields
