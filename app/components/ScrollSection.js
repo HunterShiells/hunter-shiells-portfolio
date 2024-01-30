@@ -3,6 +3,10 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import "../globals.css";
+import AboutMe from "./AboutMe";
+import Project1 from "./Project1";
+import Project2 from "./Project2";
+import Project3 from "./Project3";
 
 
 function ScrollSection() {
@@ -27,35 +31,34 @@ function ScrollSection() {
           end: "2000 top",
           scrub: 0.6,
           pin: true,
+          snap: {
+            snapTo: 1 / 3, // Adjust this value as needed
+          },
         },
       }
     );
+
     return () => {
-      {/* A return function for killing the animation on component unmount */ }
+      // A return function for killing the animation on component unmount
       pin.kill();
     };
   }, []);
 
   return (
     <section className="scroll-section-outer">
-      {/* The section up act just as a wrapper. If the trigger (below) is the
-      first jsx element in the component, you get an error on route change */}
-
-      {/* The div below act just as a trigger. As the doc suggests, the trigger and 
-      the animation should alway be two separated refs */}
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
           <div className="scroll-section">
-            <h3>Section 1</h3>
+            <AboutMe />
           </div>
           <div className="scroll-section">
-            <h3>Section 2</h3>
+            <Project1 />
           </div>
           <div className="scroll-section">
-            <h3>Section 3</h3>
+            <Project2 />
           </div>
           <div className="scroll-section">
-            <h3>Section 4</h3>
+            <Project3 />
           </div>
         </div>
       </div>
