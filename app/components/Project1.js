@@ -16,7 +16,7 @@ const Project1 = () => {
           hearing aid into the classroom activities. Utilizing Twilio Video to
           create a custom interface for the user; allowing full control of the
           raise hand function and classroom cameras. Made use of the hardware
-          side of things using Raspberry Pi's, PICO's and Servos. Along with the
+          side of things using Raspberry Pi&apos;s, PICO&apos;s and Servos. Along with the
           hardware; software was also involved utilizing many networking
           stratagies such as Routing and Remote.it. Using Open ETH ports the
           traffic would be directed to the box through routing of Remote.it once

@@ -20,8 +20,8 @@ const Project2 = () => {
           together an array of libraries and imports. The heart of the project
           is a Unihiker ESP32 touchscreen device, delivering an intuitive
           interface for effortless Spotify playback control. By tapping into
-          Spotify's Developer API and harnessing the power of Unihiker's Python
-          library, I've created a seamless user experience, making managing
+          Spotify&apos;s Developer API and harnessing the power of Unihiker&apos;s Python
+          library, I&apos;ve created a seamless user experience, making managing
           music playback a breeze.
         </p>
         <a
