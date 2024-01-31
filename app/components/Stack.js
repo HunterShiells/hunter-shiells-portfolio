@@ -8,32 +8,32 @@ const Stack = () => {
 
       <div className="ferris-wheel">
         <div className="stack-item bubble-box">
-          <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/JS-PAbMEpDMMWjyC417vR1wTOwQqpIzPM" alt="Technology Logo" className="stack-logo" />
+          <img src="https://lh3.googleusercontent.com/d/1_E5ozboWMC8zMZshO3tYnIuXbHXoxXUQ=s1000?authuser=1" alt="Technology Logo" className="stack-logo" />
           <p className="stack-name">JavaScript</p>
         </div>
 
         <div className="stack-item bubble-box">
-          <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/PYTHON-tbNkbv0NyoXVUTNx2Arj4x1hozpjCr.png" alt="Technology Logo" className="stack-logo" />
+          <img src="https://lh3.googleusercontent.com/d/1WHE8tOAla0F0hISw7GBE2gicUHL50vGP=s1000?authuser=1" alt="Technology Logo" className="stack-logo" />
           <p className="stack-name">Python</p>
         </div>
 
         <div className="stack-item bubble-box">
-          <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/MYSQL-btqSdB1Qr6wcMgTOf9oCapL98BYNlb.png" alt="Technology Logo" className="stack-logo" />
+          <img src="https://lh3.googleusercontent.com/d/13iYz8Z3cjUPyzDh6z22rC0g6TT2sG9Z2=s1000?authuser=1" alt="Technology Logo" className="stack-logo" />
           <p className="stack-name">DB/SQL</p>
         </div>
 
         <div className="stack-item bubble-box">
-          <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/HTML5-7glLsgc1gyIk8mtmHkM1ckkAtS3KnA.png" alt="Technology Logo" className="stack-logo" />
+          <img src="https://lh3.googleusercontent.com/d/14af-AjhnuO4crJgA2BzfAfp4nIrCPwy-=s1000?authuser=1" alt="Technology Logo" className="stack-logo" />
           <p className="stack-name">HTML</p>
         </div>
 
         <div className="stack-item bubble-box">
-          <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/CSS-1PgN0Z2n2q7mkBbOvrFc3GRs8n6J4J.png" alt="Technology Logo" className="stack-logo" />
+          <img src="https://lh3.googleusercontent.com/d/1Edokgbr8TX7t6SRDxWa2iTw_z4I4_Iah=s1000?authuser=1" alt="Technology Logo" className="stack-logo" />
           <p className="stack-name">CSS</p>
         </div>
 
         <div className="stack-item bubble-box">
-          <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/REACT-1MjG85TElDZkTzWItgzxruqoa6MY1f.png" alt="Technology Logo" className="stack-logo" />
+          <img src="https://lh3.googleusercontent.com/d/1rz7-NhGzt_M1vfhTJshJmVj2KHABPCmZ=s1000?authuser=1" alt="Technology Logo" className="stack-logo" />
           <p className="stack-name">React</p>
         </div>
       </div>

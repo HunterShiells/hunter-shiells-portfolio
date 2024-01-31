@@ -93,13 +93,13 @@ function Footer() {
       <div className="social-icons flex justify-center mt-8">
         <a href="https://www.linkedin.com/in/hunter-shiells-337072225/" target="_blank" rel="noopener noreferrer">
           <div className="social-box bg-blue-500 rounded-md p-4 mx-2">
-            <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/linked-0fiiHAMh60idrMQuXRez60ln8JRArE" alt="LinkedIn Logo" className="w-12 h-12" />
+            <img src="https://lh3.googleusercontent.com/d/1u60Y24MLnehyreBoBoOptOF3GdtuqpWG=s1000?authuser=1" alt="LinkedIn Logo" className="w-12 h-12" />
           </div>
         </a>
 
         <a href="https://github.com/HunterShiells" target="_blank" rel="noopener noreferrer">
           <div className="social-box bg-blue-500 rounded-md p-4 mx-2">
-            <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/github-pages-logo-repository-fork-github-86eddab19cbc3ae293ada0fe0fb9e27d-Q5YBnMpo7A87qRs73bp8TMkSiOTGgw.png" alt="GitHub Logo" className="w-12 h-12" />
+            <img src="https://lh3.googleusercontent.com/d/1P2CeGR6qsA6On2uTW180AXQkU-QY88h-=s1000?authuser=1" alt="GitHub Logo" className="w-12 h-12" />
           </div>
         </a>
       </div>
