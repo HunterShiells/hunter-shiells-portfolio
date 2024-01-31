@@ -3,19 +3,19 @@ import React from "react";
 
 const Project2 = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="w-1/2">
+    <div className="flex flex-col items-center sm:flex-row h-screen">
+      <div className="w-full sm:w-1/2">
         <img
           src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/Unihiker-tIc2gIlWB6svwDrBSBe2yCXlwE2NmO.jpg"
           alt="WebMoti Box"
-          className="w-3/4 h-auto object-cover rounded-lg border border-gray-500"
+          className="w-3/4 h-auto object-cover rounded-lg border border-gray-500 mx-auto"
         />
       </div>
-      <div className="w-1/3 text-white text-center">
-        <h1 className="text-4xl font-bold mb-4 text-center text-blue-500">
+      <div className="w-full sm:w-1/3 text-white text-center p-8">
+        <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-blue-500">
           UniHiker-Spotify-Controls
         </h1>
-        <p className="text-lg text-center">
+        <p className="text-base sm:text-sm md:text-base lg:text-lg text-center">
           I crafted an advanced Spotify control system in Python, weaving
           together an array of libraries and imports. The heart of the project
           is a Unihiker ESP32 touchscreen device, delivering an intuitive
@@ -25,13 +25,13 @@ const Project2 = () => {
           music playback a breeze.
         </p>
         <a
-            href="https://github.com/HunterShiells/Unihiker-Spotify-Controls"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg mt-4 hover:bg-blue-600"
-          >
-            View Github
-          </a>
+          href="https://github.com/HunterShiells/Unihiker-Spotify-Controls"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg mt-4 hover:bg-blue-600"
+        >
+          View Github
+        </a>
       </div>
     </div>
   );
