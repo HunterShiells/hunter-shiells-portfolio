@@ -36,7 +36,7 @@ const Project3 = () => {
 
       <div className="w-1/2">
         <img
-          src="https://imgur.com/898Z4Ue.png"
+          src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/Shop-front%20collage-pqfPSHhRQwaz3OBbtKoxm7vMAWFzYw.jpg"
           alt="WebMoti Box"
           className="w-3/4 h-auto object-cover rounded-lg border border-gray-500"
         />

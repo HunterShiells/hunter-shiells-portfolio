@@ -6,7 +6,7 @@ const Project2 = () => {
     <div className="flex justify-center items-center h-screen">
       <div className="w-1/2">
         <img
-          src="https://imgur.com/8rPHZjY.png"
+          src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/Unihiker-tIc2gIlWB6svwDrBSBe2yCXlwE2NmO.jpg"
           alt="WebMoti Box"
           className="w-3/4 h-auto object-cover rounded-lg border border-gray-500"
         />

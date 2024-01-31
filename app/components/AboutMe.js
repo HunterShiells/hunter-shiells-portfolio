@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className="flex justify-center items-center h-screen">
       <div>
         <img
-          src="https://imgur.com/qpW4hZu.png" 
+          src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/headshot2-M6vD8f04W5f8OJgSTxwVbyhw9j82vf.jpg" 
           alt="Hunter Shiells"
           className="rounded-full w-64 h-64 object-cover mx-auto"
         />
