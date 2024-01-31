@@ -117,27 +117,6 @@ body {
   color: var(--primaryTextColor);
 }
 
-.contact-form input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 16px;
-  border: 2px solid var(--primaryColor);
-  border-radius: 4px;
-  background-color: white;
-  color: black;
-}
-
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  height: 150px;
-  margin-bottom: 16px;
-  border: 2px solid var(--primaryColor);
-  border-radius: 4px;
-  background-color: white;
-  color: black;
-}
-
 .contact-form button {
   padding: 12px 20px;
   background-color: var(--primaryColor);
