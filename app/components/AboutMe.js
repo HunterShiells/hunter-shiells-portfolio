@@ -22,7 +22,7 @@ const AboutMe = () => {
         Eager to bring technical expertise to dynamic projects and contribute to success.
         </p>
         <a
-            href="http://webmoti.org/"
+            href="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/Hunter%20Shiells%20Resume-VRZZRGBOvNUYQrqsP7F4E343WVr6Em.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg mt-4 hover:bg-blue-600"
