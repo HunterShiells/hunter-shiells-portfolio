@@ -1,6 +1,15 @@
 'use client'
 import React, { useState, useRef } from "react";
 import "../globals.css";
+import axios from 'axios';
+
+const handleServerResponse = (success, message) => {
+  if (success) {
+    alert(message); // You can replace this with your preferred way of displaying success messages
+  } else {
+    alert(`Error: ${message}`); // Display an error message
+  }
+};
 
 function Footer() {
   const [name, setName] = useState("");
@@ -24,6 +33,19 @@ function Footer() {
       email,
       message,
     };
+
+    axios({
+      method: 'POST',
+      url: 'https://formspree.io/f/xbjndnlb',
+      data: formData,
+    })
+      .then((response) => {
+        handleServerResponse(true, 'Thank you, your message has been submitted.');
+      })
+      .catch((error) => {
+        console.error('Axios error:', error);
+        handleServerResponse(false, 'An error occurred while submitting the form.');
+      });
 
     setName("");
     setEmail("");
