@@ -32,7 +32,7 @@ const Project1 = () => {
 
       <div className="w-full sm:w-1/2">
         <img
-          src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/WebMoti-yehZicmfhMsXJ80xzUFmZXtZ0gteZg.jpg"
+          src="https://lh3.googleusercontent.com/d/1gRqgObOZyMom7ZsC5-_opCtNUol3TXrz=s1000?authuser=1"
           alt="WebMoti Box"
           className="w-full h-auto object-cover rounded-lg border border-gray-500"
         />

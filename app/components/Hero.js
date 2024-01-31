@@ -5,7 +5,7 @@ import "../globals.css";
 function Hero() {
   return (
     <header className="hero__header">
-      <img src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/hsfrontpagew-rp4Q6xF0Jg2dVXbLtprBe8W3SZVzWI.png" />
+      <img src="https://lh3.googleusercontent.com/d/1_npg8PB6IAmSSqPJsbm_Lcn4WtAZtNe7=s1000?authuser=1" />
       <h2>Developer</h2>
     </header>
   );

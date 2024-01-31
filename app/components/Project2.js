@@ -6,7 +6,7 @@ const Project2 = () => {
     <div className="flex flex-col items-center sm:flex-row h-screen">
       <div className="w-full sm:w-1/2">
         <img
-          src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/Unihiker-tIc2gIlWB6svwDrBSBe2yCXlwE2NmO.jpg"
+          src="https://lh3.googleusercontent.com/d/1VnotcrYltKsY17UaVqOKF8Ubd1aaVF68=s1000?authuser=1"
           alt="WebMoti Box"
           className="w-3/4 h-auto object-cover rounded-lg border border-gray-500 mx-auto"
         />

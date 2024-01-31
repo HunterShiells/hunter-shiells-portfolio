@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className="flex flex-col md:flex-row items-center h-screen">
       <div className="md:w-1/2 pr-8 flex items-center justify-end"> {/* Adjusted margin to pr-8 */}
         <img
-          src="https://oslcg8bz7ey9h2ti.public.blob.vercel-storage.com/headshot2-M6vD8f04W5f8OJgSTxwVbyhw9j82vf.jpg"
+          src="https://lh3.googleusercontent.com/d/1cLAHHYRX_acMoEPZz_4VRCTPRTKPE7DM=s750?authuser=1"
           alt="Hunter Shiells"
           className="rounded-full w-64 h-64 object-cover"
         />
