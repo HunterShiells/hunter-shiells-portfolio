@@ -5,9 +5,9 @@ import axios from 'axios';
 
 const handleServerResponse = (success, message) => {
   if (success) {
-    alert(message); // You can replace this with your preferred way of displaying success messages
+    alert(message); 
   } else {
-    alert(`Error: ${message}`); // Display an error message
+    alert(`Error: ${message}`);
   }
 };
 

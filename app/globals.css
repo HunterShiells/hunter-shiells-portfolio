@@ -91,25 +91,24 @@ body {
 }
 
 .footer {
-  height: 100vh; /* Adjusted height */
+  height: 100vh; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 165px; /* Added padding */
+  padding: 165px; 
 }
 
 .footer span {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: var(--headlineMedium); /* Adjusted font size */
+  font-size: var(--headlineMedium); 
   color: var(--primaryColor);
-  margin-bottom: 10px; /* Added margin */
+  margin-bottom: 10px; 
 }
 
-/* Contact form styles */
 .contact-form {
   width: 100%;
-  max-width: 400px; /* Adjusted max-width */
-  margin: 20px auto; /* Centered the form */
+  max-width: 400px; 
+  margin: 20px auto; 
 }
 
 .contact-form label {
@@ -131,7 +130,7 @@ body {
 .contact-form textarea {
   width: 100%;
   padding: 10px;
-  height: 150px; /* Set the desired height */
+  height: 150px;
   margin-bottom: 16px;
   border: 2px solid var(--primaryColor);
   border-radius: 4px;
@@ -150,12 +149,12 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: white; /* Change this to the desired hover color */
-  color: lighten(var(--primaryTextColor), 20%); /* Lighten the text color on hover */
+  background-color: white;
+  color: lighten(var(--primaryTextColor), 20%); 
 }
 
 .bubble-box {
-  background-color: var(--primaryColor); /* Match your primary color */
+  background-color: var(--primaryColor); 
   padding: 20px;
   border-radius: 10px;
   margin: 10px;
@@ -170,7 +169,7 @@ body {
 }
 
 .stack-logo {
-  max-width: 75px; /* Adjust the max-width as needed */
+  max-width: 75px; 
 }
 
 .stack-name {
@@ -181,8 +180,8 @@ body {
 
 .ferris-wheel {
   position: relative;
-  width: 200px; /* Adjust the size as needed */
-  height: 200px; /* Adjust the size as needed */
+  width: 200px; 
+  height: 200px;
   margin: auto;
 }
 
@@ -194,7 +193,7 @@ body {
   padding: 20px;
   text-align: center;
   position: relative;
-  height: 90vh; /* Set the height of the container to the viewport height */
+  height: 90vh; 
 }
 
 .ferris-wheel .stack-item {
@@ -208,7 +207,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center items horizontally */
+  align-items: center; 
   transition: transform 0.3s ease-in-out;
 }
 
@@ -222,25 +221,25 @@ body {
 }
 
 .ferris-wheel .stack-item:nth-child(1) {
-  animation: rotate 12s infinite linear; /* Adjust the duration as needed */
+  animation: rotate 12s infinite linear; 
 }
 
 .ferris-wheel .stack-item:nth-child(2) {
-  animation: rotate 12s infinite linear 2s; /* Add a delay for staggered rotation */
+  animation: rotate 12s infinite linear 2s; 
 }
 
 .ferris-wheel .stack-item:nth-child(3) {
-  animation: rotate 12s infinite linear 4s; /* Add a delay for staggered rotation */
+  animation: rotate 12s infinite linear 4s; 
 }
 
 .ferris-wheel .stack-item:nth-child(4) {
-  animation: rotate 12s infinite linear 6s; /* Add a delay for staggered rotation */
+  animation: rotate 12s infinite linear 6s; 
 }
 
 .ferris-wheel .stack-item:nth-child(5) {
-  animation: rotate 12s infinite linear 8s; /* Add a delay for staggered rotation */
+  animation: rotate 12s infinite linear 8s; 
 }
 
 .ferris-wheel .stack-item:nth-child(6) {
-  animation: rotate 12s infinite linear 10s; /* Add a delay for staggered rotation */
+  animation: rotate 12s infinite linear 10s; 
 }

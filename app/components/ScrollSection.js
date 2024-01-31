@@ -33,14 +33,13 @@ function ScrollSection() {
           scrub: 0.6,
           pin: true,
           snap: {
-            snapTo: 1 / 4, // Adjust this value as needed
+            snapTo: 1 / 4, 
           },
         },
       }
     );
 
     return () => {
-      // A return function for killing the animation on component unmount
       pin.kill();
     };
   }, []);
