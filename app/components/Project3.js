@@ -3,7 +3,7 @@ import React from "react";
 
 const Project3 = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-center h-screen">
+    <div className="flex flex-col sm:flex-row items-center h-screen md:ms-[250px]">
       {/* Text on the left */}
       <div className="w-full sm:w-1/3 text-white p-8 text-center">
         <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-blue-500">
@@ -29,11 +29,11 @@ const Project3 = () => {
         </a>
       </div>
 
-      <div className="w-full sm:w-1/2 mt-4 sm:mt-0">
+      <div className="w-[150px] h-[150px] md:w-full md:h-auto">
         <img
           src="https://lh3.googleusercontent.com/d/1xdWF5L9PveNWr1d5QE_2NOxqQB1b48cK=s3000?authuser=1"
           alt="WebMoti Box"
-          className="w-full h-auto object-cover rounded-lg border border-gray-500"
+          className="object-cover rounded-lg border border-gray-500"
         />
       </div>
     </div>

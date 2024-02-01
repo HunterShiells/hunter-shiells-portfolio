@@ -4,7 +4,7 @@ import "../globals.css";
 
 const Project1 = () => {
   return (
-    <div className="flex flex-col items-center justify-center sm:flex-row h-screen">
+    <div className="flex flex-col items-center justify-center sm:flex-row h-screen md:ms-[100px]">
       <div className="w-full sm:w-1/3 text-white p-8 text-center">
         <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-blue-500">
           WebMoti
@@ -30,11 +30,11 @@ const Project1 = () => {
         </a>
       </div>
 
-      <div className="w-full sm:w-1/2">
+      <div className="h-1/2 w-1/2 md:w-full md:h-auto">
         <img
           src="https://lh3.googleusercontent.com/d/1gRqgObOZyMom7ZsC5-_opCtNUol3TXrz=s1000?authuser=1"
           alt="WebMoti Box"
-          className="w-full h-auto object-cover rounded-lg border border-gray-500"
+          className="object-cover rounded-lg border border-gray-500"
         />
       </div>
     </div>
