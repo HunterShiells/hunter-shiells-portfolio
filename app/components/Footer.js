@@ -90,16 +90,16 @@ function Footer() {
         <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 w-full md:w-auto">Submit</button>
 
       </form>
-      <div className="social-icons flex justify-center mt-8">
+      <div className="social-icons flex justify-center mt-8 ">
         <a href="https://www.linkedin.com/in/hunter-shiells-337072225/" target="_blank" rel="noopener noreferrer">
-          <div className="social-box bg-blue-500 rounded-md p-2 md:p-4 mx-2">
-            <img src="https://lh3.googleusercontent.com/d/1u60Y24MLnehyreBoBoOptOF3GdtuqpWG=s1000?authuser=1" alt="LinkedIn Logo" className="w-12 h-12 md:w-12 md:h-12" />
+          <div className="social-box bg-blue-500 rounded-md p-2 w-14 h-14 mx-2 md:h-15 md:w-15">
+            <img src="https://lh3.googleusercontent.com/d/1u60Y24MLnehyreBoBoOptOF3GdtuqpWG=s60?authuser=1" alt="LinkedIn Logo" className="" />
           </div>
         </a>
 
         <a href="https://github.com/HunterShiells" target="_blank" rel="noopener noreferrer">
-          <div className="social-box bg-blue-500 rounded-md p-2 md:p-4 mx-2">
-            <img src="https://lh3.googleusercontent.com/d/1P2CeGR6qsA6On2uTW180AXQkU-QY88h-=s1000?authuser=1" alt="GitHub Logo" className="w-12 h-12 md:w-12 md:h-12" />
+          <div className="social-box bg-blue-500 rounded-md p-2 w-14 h-14 mx-2">
+            <img src="https://lh3.googleusercontent.com/d/1P2CeGR6qsA6On2uTW180AXQkU-QY88h-=s60?authuser=1" alt="GitHub Logo" className="" />
           </div>
         </a>
       </div>
