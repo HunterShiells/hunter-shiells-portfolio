@@ -55,7 +55,7 @@ function Footer() {
   };
 
   return (
-    <footer className="footer mt-[180px] mb-[100px] p-8 md:p-16 lg:p-24 text-center">
+    <footer className="footer md:mt-[180px] md:mb-[100px] p-8 md:p-16 lg:p-24 text-center">
       <span className="text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-blue-500">Contact me</span>
       
       <form onSubmit={handleSubmit} className="contact-form mt-4 ">

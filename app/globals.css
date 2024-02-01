@@ -165,6 +165,20 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 640px) {
+  .ferris-wheel {
+    width: 115px; /* Adjusted width for smaller screens (e.g., iPhones) */
+    height: 115px;
+  }
+  .ferris-wheel .stack-item {
+    width: 90px; /* Adjusted width for smaller screens (e.g., iPhones) */
+    height: 90px;
+  }
+  .stack-logo {
+    max-width: 50px; 
+  }
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
