@@ -55,10 +55,10 @@ function Footer() {
   };
 
   return (
-    <footer className="footer p-8 md:p-16 lg:p-24">
-      <span className="text-white text-lg md:text-xl lg:text-2xl">Contact me</span>
+    <footer className="footer mt-[25px] md:mt-[180px] md:mb-[100px] p-8 md:p-16 lg:p-24 text-center">
+      <span className="text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-blue-500">Contact me</span>
       
-      <form onSubmit={handleSubmit} className="contact-form text-center mt-4">
+      <form onSubmit={handleSubmit} className="contact-form mt-4 ">
         <label htmlFor="name" className="block text-white mb-2">Name</label>
         <input
           type="text"
@@ -66,7 +66,7 @@ function Footer() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           ref={nameRef}
-          className="p-2 border rounded-md mb-4 w-64 md:w-full lg:w-full"
+          className="p-2 border rounded-md mb-4 w-64 md:w-50 lg:w-50"
         />
 
         <label htmlFor="email" className="block text-white mb-2">Email</label>
@@ -76,19 +76,19 @@ function Footer() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           ref={emailRef}
-          className="p-2 border rounded-md mb-4 w-64 md:w-full lg:w-full"
+          className="p-2 border rounded-md mb-4 w-64 md:w-50 lg:w-50"
         />
-
+        <div className="flex-col">
         <label htmlFor="message" className="block text-white mb-2">Message</label>
         <textarea
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             ref={messageRef}
-            className="p-2 border rounded-md mb-4 w-64 h-32 md:h-48 md:w-full lg:w-full lg:h-64"
+            className="p-2 border rounded-md mb-4 w-full h-32 md:h-48 lg:w-1/2"
           ></textarea>
+        </div>
         <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 w-full md:w-auto">Submit</button>
-
       </form>
       <div className="social-icons flex justify-center mt-8 ">
         <a href="https://www.linkedin.com/in/hunter-shiells-337072225/" target="_blank" rel="noopener noreferrer">
